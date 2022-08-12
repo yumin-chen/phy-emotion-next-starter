@@ -1,0 +1,19 @@
+# npm
+package.json
+package-lock.json
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/public/
+
+# production
+/build
