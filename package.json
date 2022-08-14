@@ -11,9 +11,13 @@
   "dependencies": {
     "next": "latest",
     "next-compose-plugins": "latest",
+    "next-plugin-preact": "latest",
     "phy-emotion": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "preact": "latest",
+    "preact-render-to-string": "latest",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "react-ssr-prepass": "npm:preact-ssr-prepass"
   },
   "devDependencies": {
     "eslint": "latest",
